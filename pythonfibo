@@ -1,0 +1,14 @@
+def fibo(n):
+    if n <=0 :
+        print("Please enter a positive integer : ")
+        return
+    a,b=0,1
+    print("------ Here is your Fibo : ------")
+    for num in range(n):
+     a,b=b, a+b
+     print(a, end=" ")
+
+
+
+n=int(input("Enter an Integer : "))
+fibo(n)
